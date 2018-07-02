@@ -3,10 +3,13 @@
 // @description  Add listeners to events like caps, kisses etc.
 // @author       Ko
 // @version      0.1
-// @downloadURL  https://github.com/wilcooo/TagPro-EventsLibrary/raw/master/tpel.lib.js
-// @supportURL   https://www.reddit.com/message/compose/?to=Wilcooo
 // @license      MIT
 // ==/UserScript==
+
+
+// Use the next line in your userscript's metadata block to enable the Events Library
+// @require      https://github.com/wilcooo/TagPro-EventsLibrary/raw/master/tpel.lib.js
+
 
 // If another instance of TagPro Events Library is running, don't do anything:
 if (tagpro.events) return;
